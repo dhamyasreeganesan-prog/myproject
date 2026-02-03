@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: rgb(19, 105, 2);
+}
+body{
+    background-color: lightgray;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10%;
+    background-color: rgb(247, 129, 129);
+    text-align: center;
+}
+.logo{
+    text-transform:uppercase;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(39, 3, 73);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.link{
+    list-style: none;
+}
+.link li{
+    display: inline-block;
+    font-size: xx-large;
+    padding: 20px 20px;
+}
+.link li a.active{
+    color: gold;
+}
+.link li a:hover
+{
+    color:rgb(63, 223, 84);
+    transition:2s;
+    cursor: pointer;
+}
+.button{
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: darkred;
+    font-size: 30px;
+   
+}
+.banner{
+    background-image: url("https://pixbitsolutions.com/_next/image?url=https%3A%2F%2Fae.cms.pixbit.in%2Fuploads%2Fhow_to_choose_ui_ux_design_agency_5640ab8c9a.jpg&w=3840&q=75");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+div h1{
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    left: 20%;
+    top: 18%;
+}
+div h4{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 20%;
+    top: 150px;
+}
+.ig{
+    background-image: url("WhatsApp\ Image\ 2025-08-21\ at\ 13.12.37_85d028ae.png.jpg");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 200px;
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    box-shadow: 0px 0px 30px white;
+} 
+button{
+    position: absolute;
+    left: 20%;
+    top:30%;
+    font-size:small
+}
